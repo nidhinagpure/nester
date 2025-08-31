@@ -2,7 +2,7 @@ import React from 'react'
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 
 import "./style.css";
-import Navbar from './components/Navbar/Navbar.jsx';
+import Herosection from './components/HeroSection/Herosections';
 
 
 const index = () => {
@@ -10,8 +10,7 @@ const index = () => {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Navbar />} />
-
+          <Route path="/" element={<Herosection />} />
         </Routes>
       </BrowserRouter>
     </div>
