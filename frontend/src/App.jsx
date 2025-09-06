@@ -1,21 +1,18 @@
-import React from 'react'
-import { Route, Routes, BrowserRouter } from "react-router-dom";
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React from "react";
 import "./style.css";
-import Herosection from './components/HeroSection/Herosections';
+
+import Home from "./pages/Home/Home.jsx";
 
 
-const index = () => {
+function App() {
   return (
-    <div>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Herosection />} />
-        </Routes>
-      </BrowserRouter>
-    </div>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default index
-
+export default App;

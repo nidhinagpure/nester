@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 70px;
+  height: 60px;
   padding: 0 40px;
   position: fixed;
   top: 0;
@@ -19,31 +19,19 @@
 .logo-conatainer {
   display: flex;
   align-items: center;
-  gap: 10px;
 }
 
 .logo-image {
+  margin-right: 100px;
   height: auto;
-  width: 50px;
-}
-
-.global-text {
-  font-size: 22px;
-  font-weight: bold;
-  color: blue;
-}
-
-.nester-text {
-  font-size: 22px;
-  font-weight: bold;
-  padding-left: 8px;
+  width: 300px;
 }
 
 /* 🔹 Menu */
 .nav-menu-container {
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 16px;
 }
 
 .nav-menu-container span,

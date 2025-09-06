@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate  } from 'react-router';
 import { useEffect,useRef } from 'react';
-import logo from "./../../assets/global.png";
+import logo from "./../../assets/logo.png";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -32,22 +32,16 @@ const Navbar = () => {
         <nav ref={navRef} className="navar-container">
             <div className="logo-conatainer">
                 <img className="logo-image" src={logo} alt="logo-image" />
-                <div>
-                    <p className="global-text">Global</p>
-                    <p className="nester-text">Nester</p>
-                </div>
                 <div className="nav-menu-container">
                     <span>Home</span>
-                    <select>
-                        <option>Deals</option>
-                        <option>Purchases</option>
-                        <option>Sales</option>
-                        <option>Commercials</option>
-                    </select>
+                    <span>Purchase</span>
+                    <span>Sales</span>
+                    <span>Commercials</span>
+                    <span>Services</span>
                     <span onClick={goToAbout}>About us</span>
+                    <span></span>
                     <div className="contact-details">
                         <button className="btn-contact" onClick={goToContact}>Contact</button>
-                        <button className="btn-login" onClick={goToLogin}>Login</button>
                     </div>
                 </div>
             </div>

@@ -1,13 +1,14 @@
-import React from 'react'
-import Herosection from "../components/Herosection/Herosection.jsx";
-import Navbar from '../components/Navbar/Navbar.jsx';
+
+import React from "react";
+import Navbar from "../../components/Navbar/Navbar.jsx";
+import Herosection from "../../components/HeroSection/HeroSection.jsx";
 
 
 const Home = () => {
   return (
     <div>
         <Navbar />
-        <Herosection/>
+        <Herosection />
     </div>
   )
 }
