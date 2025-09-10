@@ -1,5 +1,6 @@
 
 import React from "react";
+import "./Home.css";
 import Navbar from "../../components/Navbar/Navbar.jsx";
 import HeroSection from "../../components/HeroSection/HeroSection.jsx";
 import Gallary from "../../components/Gallary/Gallary.jsx";
