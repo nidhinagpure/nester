@@ -1,7 +1,7 @@
 
 import React from "react";
 import Navbar from "../../components/Navbar/Navbar.jsx";
-import Herosection from "../../components/Herosection/Herosection.jsx";
+import HeroSection from "../../components/HeroSection/HeroSection.jsx";
 import Gallary from "../../components/Gallary/Gallary.jsx";
 import Card from "../../components/Properties/Properties.jsx";
 import Dearmsection from "./../../components/Dream/Dream.jsx";
@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <div>
         <Navbar />
-        <Herosection />
+        <HeroSection />
         <Gallary />
         <Card />
         <Dearmsection />
