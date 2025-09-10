@@ -1,8 +1,8 @@
 import React from 'react'
 import demoVideo from "./../../videos/main-video.mp4";
-import "./HeroSection.css";
+import "./MiddleSection.css";
 
-const HeroSection = () => {
+const MiddleSection = () => {
     return (
         <div className="video-container">
             <video autoPlay muted loop playsInline className="video-bg">
@@ -37,5 +37,5 @@ const HeroSection = () => {
     )
 }
 
-export default HeroSection;
+export default MiddleSection;
 
