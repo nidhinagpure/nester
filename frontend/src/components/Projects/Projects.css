@@ -1,0 +1,131 @@
+.property-card {
+  width: 300px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 20px;
+}
+
+.property-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.property-type {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #0072ff;
+  color: #fff;
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.property-price {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #00c6ff;
+  color: #fff;
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-content h3 {
+  font-size: 18px;
+  margin-bottom: 6px;
+  color: #003366;
+}
+
+.card-content .location,
+.card-content .area {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.feature {
+  background: #f0f4f8;
+  color: #003366;
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.builder {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.card-buttons button {
+  flex: 1;
+  padding: 8px 0;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.call-btn {
+  background: #fff;
+  color: #d63384;
+  border: 1px solid #d63384;
+}
+
+.call-btn:hover {
+  background: #d63384;
+  color: #fff;
+}
+
+.email-btn {
+  background: #fff;
+  color: #555;
+  border: 1px solid #555;
+}
+
+.email-btn:hover {
+  background: #555;
+  color: #fff;
+}
+
+.details-btn {
+  background: #00c6ff;
+  color: #fff;
+}
+
+.details-btn:hover {
+  background: #0072ff;
+}

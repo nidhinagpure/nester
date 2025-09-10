@@ -1,0 +1,65 @@
+.consultation-container {
+  width: 100%;
+  background-color: rgb(190, 186, 186);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.consultation-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.consultation-subtitle {
+  font-size: 18px;
+  color: #e5e7eb; /* light gray */
+  margin-bottom: 30px;
+}
+
+.consultation-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Primary Button */
+.btn-primary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: white;
+  color: #1e40af;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: #e5e7eb;
+}
+
+/* Secondary Button */
+.btn-secondary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background: white;
+  color: black;
+}
